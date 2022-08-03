@@ -1,0 +1,93 @@
+/* START: Task 1 Styles */
+td {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    background-color: green;
+}
+
+/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+#text {
+    height: 30px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+#text::placeholder {
+    font-size: 10px;
+}
+
+#wrongType {
+    display: none;
+    background-color: rgb(219, 104, 104);
+    color: white;
+    border: 1px solid black;
+    line-height: 30px;
+    width: 250px;
+}
+
+#success {
+    display: none;
+    background-color: rgb(70, 121, 36);
+    color: white;
+    border: 1px solid black;
+    line-height: 30px;
+    width: 250px;
+}
+
+#send {
+    height: 30px;
+}
+/* END: Task 2 Styles */
+
+/* START: Task 3 Styles */
+
+#ball {
+    position: absolute;
+    left: 287px;
+    top: 149px;
+    width: 40px;
+    height: 40px;
+    transition: all 0.5s;
+}
+
+#court {
+    position: relative;
+    height: 330px;
+    width: 600px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#scope {
+    display: flex;
+    width: 600px;
+    background-color:gold;
+    justify-content: space-between;
+}
+
+#teamA {
+    color:indianred;
+    display: none;
+    transition : all .3s;
+}
+
+#teamB {
+    color:blue;
+    display: none;
+    transition : all .3s;
+}
+
+#msg {
+    text-align: center;
+    width: 600px;
+}
+/* END: Task 3 Styles */
